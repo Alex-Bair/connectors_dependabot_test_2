@@ -1,6 +1,6 @@
 module github.com/estuary/connectors
 
-go 1.25.0
+go 1.25.7
 
 require (
 	cloud.google.com/go v0.123.0
@@ -16,20 +16,20 @@ require (
 	github.com/apache/arrow-go/v18 v18.4.1
 	github.com/apache/iceberg-go v0.4.0
 	github.com/aws/aws-sdk-go v1.55.8
-	github.com/aws/aws-sdk-go-v2 v1.39.2
+	github.com/aws/aws-sdk-go-v2 v1.41.5
 	github.com/aws/aws-sdk-go-v2/config v1.31.12
 	github.com/aws/aws-sdk-go-v2/credentials v1.18.16
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.19.5
 	github.com/aws/aws-sdk-go-v2/feature/rds/auth v1.5.13
-	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.84
+	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.19.10
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.44.0
 	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.26.0
 	github.com/aws/aws-sdk-go-v2/service/emrserverless v1.28.1
 	github.com/aws/aws-sdk-go-v2/service/glue v1.129.1
-	github.com/aws/aws-sdk-go-v2/service/kinesis v1.33.1
+	github.com/aws/aws-sdk-go-v2/service/kinesis v1.43.5
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.88.3
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.60.1
-	github.com/aws/smithy-go v1.23.0
+	github.com/aws/smithy-go v1.24.2
 	github.com/bradleyjkemp/cupaloy v2.3.0+incompatible
 	github.com/cespare/xxhash/v2 v2.3.0
 	github.com/databricks/databricks-sdk-go v0.121.0
@@ -72,7 +72,7 @@ require (
 	github.com/slack-go/slack v0.14.0
 	github.com/snowflakedb/gosnowflake/v2 v2.0.0
 	github.com/stretchr/testify v1.11.1
-	github.com/tidwall/gjson v1.17.3
+	github.com/tidwall/gjson v1.18.0
 	github.com/tidwall/sjson v1.2.5
 	github.com/trinodb/trino-go-client v0.313.0
 	github.com/wk8/go-ordered-map/v2 v2.1.8
@@ -88,19 +88,19 @@ require (
 	golang.org/x/time v0.15.0
 	google.golang.org/api v0.271.0
 	google.golang.org/genproto v0.0.0-20260217215200-42d3e9bedb6d
-	google.golang.org/grpc v1.79.2
+	google.golang.org/grpc v1.79.3
 	google.golang.org/protobuf v1.36.11
 	gopkg.in/yaml.v3 v3.0.1
 	resty.dev/v3 v3.0.0-beta.2
-	vitess.io/vitess v0.21.3
+	vitess.io/vitess v0.23.3
 )
 
 require (
 	cloud.google.com/go/auth v0.18.2 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect
-	filippo.io/edwards25519 v1.1.0 // indirect
+	filippo.io/edwards25519 v1.1.1 // indirect
 	github.com/andybalholm/brotli v1.2.0 // indirect
-	github.com/go-jose/go-jose/v4 v4.1.3 // indirect
+	github.com/go-jose/go-jose/v4 v4.1.4 // indirect
 	github.com/jackc/pgproto3/v2 v2.3.3 // indirect
 	github.com/minio/asm2plan9s v0.0.0-20200509001527-cdd76441f9d8 // indirect
 	github.com/minio/c2goasm v0.0.0-20190812172519-36a3d3bbc4f3 // indirect
@@ -138,10 +138,10 @@ require (
 	github.com/apache/thrift v0.22.0 // indirect
 	github.com/apapsch/go-jsonmerge/v2 v2.0.0 // indirect
 	github.com/astaxie/beego v1.12.3 // indirect
-	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.1 // indirect
+	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.8 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.9 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.9 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.9 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.21 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.21 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.3 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.1 // indirect
@@ -155,7 +155,7 @@ require (
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bitfield/gotestdox v0.2.2 // indirect
-	github.com/buger/jsonparser v1.1.1 // indirect
+	github.com/buger/jsonparser v1.1.2 // indirect
 	github.com/bytedance/sonic v1.10.0 // indirect
 	github.com/clipperhouse/uax29/v2 v2.2.0 // indirect
 	github.com/cncf/xds/go v0.0.0-20251210132809-ee656c7534f5 // indirect
@@ -234,6 +234,8 @@ require (
 	github.com/microsoft/kiota-serialization-json-go v1.1.2 // indirect
 	github.com/microsoft/kiota-serialization-multipart-go v1.1.2 // indirect
 	github.com/microsoft/kiota-serialization-text-go v1.1.3 // indirect
+	github.com/moby/moby/api v1.54.1 // indirect
+	github.com/moby/moby/client v0.4.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
 	github.com/montanaflynn/stats v0.7.1 // indirect
@@ -244,7 +246,7 @@ require (
 	github.com/pingcap/errors v0.11.5-0.20250318082626-8f80e5cb09ec // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
+	github.com/planetscale/vtprotobuf v0.6.1-0.20250313105119-ba97887b0a25 // indirect
 	github.com/prometheus/client_golang v1.23.2 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.67.1 // indirect
@@ -261,7 +263,7 @@ require (
 	github.com/substrait-io/substrait v0.69.0 // indirect
 	github.com/substrait-io/substrait-go/v4 v4.4.0 // indirect
 	github.com/substrait-io/substrait-protobuf/go v0.71.0 // indirect
-	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/match v1.2.0 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/twmb/murmur3 v1.1.8 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
